@@ -1,6 +1,6 @@
 .card {
     width: 500px;
-    height: 150px;
+    height: 120px;
 background: chartreuse;
     float:left;
 }
@@ -9,33 +9,24 @@ background: chartreuse;
     height: 70px;
     border-radius: 50%;
     margin-right: 20px;
-    position: relative;
     top:60px;
+    position: absolute;
+    left: 0;
 }
 
 .card__message {
-    width: 300px;
-    height: 100px;
-    margin-right: 12px;
+    width: 400px;
+    height: 80px;
     background: #282c34;
     float:right;
-    margin: 30px;
-    border-radius: 5px;
+    margin: 10px;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 0 0 20px 30px;
+    border-color: transparent transparent transparent chartreuse;
 }
-.card__corner {
-    width: 10px;
-    height: 10px;
-    margin-right: 12px;
-    background: brown;
-    float:right;
-}
-.card__avatar {
-    width: 80px;
-    height: 140px;
-    margin-right: 12px;
-    background: chartreuse;
-    float:right;
-}
+
+
 .name{
     color: blueviolet;
 }
