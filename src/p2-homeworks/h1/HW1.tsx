@@ -11,7 +11,7 @@ const messageData = {
 function HW1() {
     return (
         <div>
-            {/*<hr/>*/}
+            <hr/>
 
             <Message
                 avatar={messageData.avatar}
@@ -20,11 +20,10 @@ function HW1() {
                 time={messageData.time}
             />
 
-            {/*<hr/>*/}
+            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeMessage/>*/}
-            {/*} <hr/>*/}
-        </div>
+            </div>
     )
 }
 
