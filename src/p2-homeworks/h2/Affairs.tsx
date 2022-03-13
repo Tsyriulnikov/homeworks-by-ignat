@@ -1,6 +1,7 @@
 import React from 'react'
 import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
+import classNames from './Affairs.module.css'
 
 type AffairsPropsType = {
     data: AffairType[]
@@ -9,14 +10,15 @@ type AffairsPropsType = {
 }
 
 function Affairs(props: AffairsPropsType) {
-    const mappedAffairs = props.data.map((a: AffairType) => (
 
+
+    const mappedAffairs = props.data.map((a: AffairType) => (
         <Affair // should work
             key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
             affair={a}
             deleteAffairCallback={props.deleteAffairCallback}
-        />
-    ))
+        />))
+
 
     const setAll = () => {
         props.setFilter('all')
@@ -33,13 +35,15 @@ function Affairs(props: AffairsPropsType) {
 
     return (
         <div>
-
-            {mappedAffairs}
-
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <table className={classNames.table_Hw2}>
+                <tbody>
+                {mappedAffairs}
+                </tbody>
+            </table>
+            <button className={classNames.button7} onClick={setAll}>All</button>
+            <button className={classNames.button7} onClick={setHigh}>High</button>
+            <button className={classNames.button7} onClick={setMiddle}>Middle</button>
+            <button className={classNames.button7} onClick={setLow}>Low</button>
         </div>
     )
 }
