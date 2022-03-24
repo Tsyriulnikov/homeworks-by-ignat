@@ -17,8 +17,10 @@ function HW4() {
     }
 
     const [checked, setChecked] = useState<boolean>(false)
-    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
+    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setChecked(e.currentTarget.checked)
+    }
     return (
         <div>
             <hr/>
@@ -60,7 +62,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    Push me {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
