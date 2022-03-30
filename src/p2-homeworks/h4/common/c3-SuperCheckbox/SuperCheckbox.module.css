@@ -1,7 +1,17 @@
 .checkbox {
-
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: dimgray;
 }
 
 .spanClassName {
 
+}
+.checkbox:checked {
+    appearance: none;
+    background-image: url('checked.png');
+}
+.checkbox:focus {
+    outline: green solid 1px;
 }
