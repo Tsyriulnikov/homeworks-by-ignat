@@ -8,8 +8,6 @@ import * as AiIcons from 'react-icons/ai';
 
 function Header() {
 
-    // const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
-    // const toggleMenu = () => setIsMenuOpen((isOpen) => !isOpen);
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = () => setSidebar(!sidebar);
 

@@ -1,0 +1,18 @@
+.editImg {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+.spanWrap {
+    margin: 20px;
+    padding: 10px;
+    font-size: larger;
+
+}
+.superSpan {
+    cursor: pointer;
+}
+.delButton {
+    width: auto;
+    height: auto;
+}
