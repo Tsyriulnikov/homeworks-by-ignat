@@ -14,15 +14,15 @@ function Affair(props: AffairPropsType) {
     }// need to fix
 
     return (
-                    <tr key={props.affair._id}>
-                    <td>{props.affair.name}</td>
-                     <td>[{props.affair.priority}]</td>
-                   <td>
-                       <button className={classNames.button7} onClick={deleteCallback}>X</button>
-                   </td>
-                </tr>
+        <tr key={props.affair._id}>
+            <td>{props.affair.name}</td>
+            <td>[{props.affair.priority}]</td>
+            <td>
+                <button className={classNames.button7} onClick={deleteCallback}>X</button>
+            </td>
+        </tr>
 
-)
+    )
 }
 
 export default Affair
