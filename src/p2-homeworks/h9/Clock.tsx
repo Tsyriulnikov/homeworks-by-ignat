@@ -35,13 +35,15 @@ function Clock() {
                 onMouseLeave={onMouseLeave}
             >
                 {stringTime}
+
             </div>
 
-            {show && (
+
+            {show ? (
                 <div>
                     {stringDate}
                 </div>
-            )}
+            ) : <br></br>}
 
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
