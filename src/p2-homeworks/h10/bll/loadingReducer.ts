@@ -1,5 +1,8 @@
-const initState = {
 
+export type LoadingType = {isLoading: boolean}
+
+const initState = {
+isLoading:false
 }
 
 export const loadingReducer = (state = initState, action: any): any => { // fix any
