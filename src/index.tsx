@@ -8,9 +8,9 @@ import store from "./p2-homeworks/h10/bll/store";
 
 ReactDOM.render(
     <Provider store={store}>
-    <React.StrictMode>
-                <App/>
-    </React.StrictMode>
+        <React.StrictMode>
+            <App/>
+        </React.StrictMode>
     </Provider>,
     document.getElementById("root")
 )

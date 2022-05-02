@@ -42,8 +42,11 @@ function HW8() {
             homeworks 8
 
             {/*should work (должно работать)*/}
-            {finalPeople}
-
+            <table>
+                <tbody>
+                {finalPeople}
+                </tbody>
+            </table>
             <div style={{display: "inline-block"}}><SuperButton onClick={sortUp}>sort up</SuperButton></div>
             <div style={{display: "inline-block"}}><SuperButton onClick={sortDown}>sort down</SuperButton></div>
             <div style={{display: "inline-block"}}><SuperButton onClick={check18}>check 18</SuperButton></div>
