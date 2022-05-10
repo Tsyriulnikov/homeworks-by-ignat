@@ -21,9 +21,9 @@ function HW11() {
 
             <div>
                 <span>{value1}</span>
-                <SuperDoubleRange
-                    // сделать так чтоб value1 и value2 изменялось
-                />
+                {/*<SuperDoubleRange*/}
+                {/*    // сделать так чтоб value1 и value2 изменялось*/}
+                {/*/>*/}
                 <span>{value2}</span>
             </div>
 
