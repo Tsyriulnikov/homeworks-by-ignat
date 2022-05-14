@@ -5,6 +5,16 @@ import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
 function HW11() {
     const [value1, setValue1] = useState(0)
     const [value2, setValue2] = useState(100)
+    const [value3, setValue3] = React.useState<number|number[]>([20, 37]);
+
+    const handleCallBackSuperDoubleRange = (valueSuperDoubleRange:number[]) => {
+      // console.log(valueSuperDoubleRange)Яzzz
+      // setValue3(valueSuperDoubleRange as number)
+
+
+      // setValue2(valueSuperDoubleRange.[1])
+
+    }
 
     return (
         <div>
@@ -21,7 +31,7 @@ function HW11() {
 
             <div>
                 <span>{value1}</span>
-                <SuperDoubleRange
+                <SuperDoubleRange onChangeRange={setValue3}
                     // сделать так чтоб value1 и value2 изменялось
                 />
                 <span>{value2}</span>

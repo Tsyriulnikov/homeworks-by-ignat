@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e0e01413-89b7-46c4-8a6f-5f4198c2d18b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,8 @@
       <workItem from="1650977434060" duration="6927000" />
       <workItem from="1651471231485" duration="20012000" />
       <workItem from="1652108934970" duration="3227000" />
-      <workItem from="1652258213582" duration="3181000" />
+      <workItem from="1652258213582" duration="4058000" />
+      <workItem from="1652534118254" duration="5763000" />
     </task>
     <servers />
   </component>
