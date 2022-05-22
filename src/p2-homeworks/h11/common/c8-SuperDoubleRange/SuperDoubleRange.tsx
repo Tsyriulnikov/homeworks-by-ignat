@@ -45,7 +45,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
             <Slider
                 getAriaLabel={() => 'Temperature range'}
                 value={value}
-                onChange={handleChange}
+                 //onChange={handleChange}
                 valueLabelDisplay="auto"
                 // getAriaValueText={valuetext}
             />
