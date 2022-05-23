@@ -30,8 +30,8 @@ function HW12() {
                 <SuperRadio
                     name={'radio'}
                     options={themes}
-                    // value={theme.theme}
-                    // onChangeOption={onChangeOption}
+                    value={theme.theme}
+                    onChangeOption={onChangeOption}
                 />
             </div>
             <hr/>
