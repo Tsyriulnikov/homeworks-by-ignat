@@ -19,7 +19,7 @@ function HW11() {
     return (
         <div>
             <hr/>
-            homeworks 11
+            homeworks 11 Пока не сделал :(
 
             {/*should work (должно работать)*/}
             <div>

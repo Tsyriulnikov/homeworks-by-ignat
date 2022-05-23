@@ -21,3 +21,17 @@
 .some-text {
     color: darkslateblue;
 }
+.orange {
+    background:orange;
+}
+
+.orange-text {
+    color: red;
+}
+.blue {
+    background:deepskyblue;
+}
+
+.blue-text {
+    color: black;
+}

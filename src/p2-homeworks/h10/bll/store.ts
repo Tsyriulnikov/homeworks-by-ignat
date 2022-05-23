@@ -1,9 +1,10 @@
 import {loadingReducer} from './loadingReducer'
 import {combineReducers, compose, createStore} from "redux";
+import {themeReducer} from "../../h12/bll/themeReducer";
 
 const reducers = combineReducers({
     loading: loadingReducer,
-
+    theme: themeReducer,
 })
 //Для DEVTools  Redux
 declare global {

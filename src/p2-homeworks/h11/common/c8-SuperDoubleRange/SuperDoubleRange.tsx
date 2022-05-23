@@ -20,32 +20,34 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 
     const [value, setValue] = React.useState<number|number[]>([20, 37]);
 
-    const handleChange = (event: Event, newValue: number[]) => {
-        setValue(newValue as number[]);
-        // const arrayValue :number = newValue[0] as number;
-        console.log(newValue);
-
-        // onChange && onChange(event) // сохраняем старую функциональность
-
-        onChangeRange && onChangeRange(newValue)
-
-
-
-    };
+    // const handleChange = (event: Event, newValue: number[]) => {
+    //     setValue(newValue as number[]);
+    //     // const arrayValue :number = newValue[0] as number;
+    //     console.log(newValue);
+    //
+    //     // onChange && onChange(event) // сохраняем старую функциональность
+    //
+    //     onChangeRange && onChangeRange(newValue)
+    //
+    //
+    //
+    // };
 
     // const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     //     onChange && onChange(e) // сохраняем старую функциональность
     //
     //     onChangeRange && onChangeRange(+e.currentTarget.value )
     // }
-
+    const handleChange = (event: Event, newValue: number | number[]) => {
+        setValue(newValue as number[]);
+    };
 
     return (
         <Box sx={{width: 300}}>
             <Slider
                 getAriaLabel={() => 'Temperature range'}
                 value={value}
-                 //onChange={handleChange}
+                 onChange={handleChange}
                 valueLabelDisplay="auto"
                 // getAriaValueText={valuetext}
             />
