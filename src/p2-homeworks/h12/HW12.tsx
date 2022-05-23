@@ -9,7 +9,7 @@ const themes = ['dark','red', 'some','orange','blue'];
 
 function HW12() {
     // const theme = 'some'; // useSelector
-    const theme = useSelector<AppStoreType, ThemeType>(state => state.theme)
+    const theme = useSelector<AppStoreType, string>(state => state.theme.theme)
 
 
     const dispatch = useDispatch()
@@ -18,9 +18,9 @@ function HW12() {
         dispatch(changeThemeC(selectTheme))
     }
     return (
-        <div className={s[theme.theme]}>
+        <div className={s[theme]}>
             <hr/>
-            <span className={s[theme.theme + '-text']}>
+            <span className={s[theme + '-text']}>
                 homeworks 12
             </span>
 
@@ -30,7 +30,7 @@ function HW12() {
                 <SuperRadio
                     name={'radio'}
                     options={themes}
-                    value={theme.theme}
+                    value={theme}
                     onChangeOption={onChangeOption}
                 />
             </div>
