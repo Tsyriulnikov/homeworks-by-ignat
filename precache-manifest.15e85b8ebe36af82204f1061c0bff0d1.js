@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "740d70d8a48af684a65fe795f9aedcfb",
+    "revision": "bf6f98278d7164a7b277baa9edc37e5e",
     "url": "/homeworks-by-ignat/index.html"
   },
   {
-    "revision": "c80d7353e3dadc026d3b",
+    "revision": "7573e0e2dbe7ff6121e4",
     "url": "/homeworks-by-ignat/static/css/main.9eb7e044.chunk.css"
   },
   {
-    "revision": "60d513fcf42a786858c2",
-    "url": "/homeworks-by-ignat/static/js/2.f3d5a1b2.chunk.js"
+    "revision": "4fdd75404e5631acc132",
+    "url": "/homeworks-by-ignat/static/js/2.2cadaea2.chunk.js"
   },
   {
-    "revision": "ddbef77fe8d568e412235d53a05828bc",
-    "url": "/homeworks-by-ignat/static/js/2.f3d5a1b2.chunk.js.LICENSE.txt"
+    "revision": "fd57557acd08e16d5f1db94385e44bce",
+    "url": "/homeworks-by-ignat/static/js/2.2cadaea2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c80d7353e3dadc026d3b",
-    "url": "/homeworks-by-ignat/static/js/main.10cf013a.chunk.js"
+    "revision": "7573e0e2dbe7ff6121e4",
+    "url": "/homeworks-by-ignat/static/js/main.4194585d.chunk.js"
   },
   {
     "revision": "5b6fe110039571657cb3",
