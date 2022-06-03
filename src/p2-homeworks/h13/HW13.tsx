@@ -2,9 +2,9 @@ import React from "react";
 import {Request} from "./Request";
 
 export const HW13 = () => {
-    return(
+    return (
         <div>
-        <Request />
+            <Request/>
         </div>
     )
 }

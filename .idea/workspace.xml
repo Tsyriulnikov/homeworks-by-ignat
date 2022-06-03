@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e01413-89b7-46c4-8a6f-5f4198c2d18b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/Request.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/request-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5-rrd-v6/pages/JuniorPlus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/Request.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/Request.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +129,7 @@
       <workItem from="1652598673522" duration="1634000" />
       <workItem from="1652806579755" duration="40000" />
       <workItem from="1653197028601" duration="12711000" />
-      <workItem from="1654241016019" duration="1338000" />
+      <workItem from="1654241016019" duration="9722000" />
     </task>
     <servers />
   </component>
